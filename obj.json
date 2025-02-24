@@ -1,0 +1,398 @@
+{
+        "books": [
+          {
+            "genre": "Comedy",
+            "image": "https://en.wikipedia.org/wiki/Good_Omens#/media/File:Goodomenscover.jpg",
+            "book_name": "Good Omens",
+            "author_name": "Terry Pratchett & Neil Gaiman",
+            "description": "A comedic novel about an angel and a demon teaming up to prevent the apocalypse.",
+            "price": 499
+          },
+          {
+            "genre": "Comedy",
+            "image": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy#/media/File:H2G2_UK_front_cover.jpg",
+            "book_name": "The Hitchhiker's Guide to the Galaxy",
+            "author_name": "Douglas Adams",
+            "description": "A humorous science fiction series about an unwitting human's adventures in space.",
+            "price": 599
+          },
+          {
+            "genre": "Comedy",
+            "image": "https://en.wikipedia.org/wiki/Catch-22#/media/File:Catch-22_(1961)_front_cover,_first_edition.jpg",
+            "book_name": "Catch-22",
+            "author_name": "Joseph Heller",
+            "description": "A satirical novel set during World War II, highlighting the absurdities of war.",
+            "price": 450
+          },
+          {
+            "genre": "Comedy",
+            "image": "https://en.wikipedia.org/wiki/Bridget_Jones%27s_Diary#/media/File:BridgetJonesDiaryMoviePoster.jpg",
+            "book_name": "Bridget Jones's Diary",
+            "author_name": "Helen Fielding",
+            "description": "A humorous account of a single woman's adventures in London.",
+            "price": 520
+          },
+          {
+            "genre": "Comedy",
+            "image": "https://en.wikipedia.org/wiki/Me_Talk_Pretty_One_Day#/media/File:MeTalkPrettyOneDayCover.JPG",
+            "book_name": "Me Talk Pretty One Day",
+            "author_name": "David Sedaris",
+            "description": "A collection of humorous essays about the author's life and experiences.",
+            "price": 480
+          },
+          {
+            "genre": "Comedy",
+            "image": "https://en.wikipedia.org/wiki/A_Confederacy_of_Dunces#/media/File:Confederacy_of_dunces_cover.jpg",
+            "book_name": "A Confederacy of Dunces",
+            "author_name": "John Kennedy Toole",
+            "description": "A picaresque novel featuring a quirky protagonist in New Orleans.",
+            "price": 550
+          },
+          {
+            "genre": "Comedy",
+            "image": "https://en.wikipedia.org/wiki/Bossypants#/media/File:Bossypants_Cover_(Tina_Fey)_-_200px.jpeg",
+            "book_name": "Bossypants",
+            "author_name": "Tina Fey",
+            "description": "A memoir filled with humorous anecdotes from the comedian's life.",
+            "price": 499
+          },
+          {
+            "genre": "Comedy",
+            "image": "https://en.wikipedia.org/wiki/My_Man_Jeeves#/media/File:MyManJeeves.jpg",
+            "book_name": "My Man Jeeves",
+            "author_name": "P.G. Wodehouse",
+            "description": "A collection of comedic short stories featuring the valet Jeeves.",
+            "price": 430
+          },
+          {
+            "genre": "Comedy",
+            "image": "https://www.google.co.in/books/edition/Hyperbole_and_a_Half/9I4IqkPyrXoC?hl=en&gbpv=1&printsec=frontcover",
+            "book_name": "Hyperbole and a Half",
+            "author_name": "Allie Brosh",
+            "description": "A humorous illustrated memoir based on the author's blog.",
+            "price": 510
+          },
+          {
+            "genre": "Comedy",
+            "image": "https://en.wikipedia.org/wiki/Is_Everyone_Hanging_Out_Without_Me%3F#/media/File:Is_everyone_hanging_out_without_me.jpg",
+            "book_name": "Is Everyone Hanging Out Without Me?",
+            "author_name": "Mindy Kaling",
+            "description": "A collection of humorous essays on the author's life and career.",
+            "price": 470
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/The_Great_Gatsby#/media/File:The_Great_Gatsby_Cover_1925_Retouched.jpg",
+            "book_name": "The Great Gatsby",
+            "author_name": "F. Scott Fitzgerald",
+            "description": "A novel about the American dream and the decadence of the Jazz Age.",
+            "price": 399
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird#/media/File:To_Kill_a_Mockingbird_(first_edition_cover).jpg",
+            "book_name": "To Kill a Mockingbird",
+            "author_name": "Harper Lee",
+            "description": "A story of racial injustice and moral growth in the American South.",
+            "price": 450
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four#/media/File:1984_first_edition_cover.jpg",
+            "book_name": "1984",
+            "author_name": "George Orwell",
+            "description": "A dystopian novel about a totalitarian regime that controls every aspect of life.",
+            "price": 499
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye#/media/File:The_Catcher_in_the_Rye_(1951,_first_edition_cover).jpg",
+            "book_name": "The Catcher in the Rye",
+            "author_name": "J.D. Salinger",
+            "description": "A story about teenage angst and alienation in post-war America.",
+            "price": 420
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/Pride_and_Prejudice#/media/File:PrideAndPrejudiceTitlePage.jpg",
+            "book_name": "Pride and Prejudice",
+            "author_name": "Jane Austen",
+            "description": "A classic novel exploring themes of love, class, and social reputation.",
+            "price": 375
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/Moby-Dick#/media/File:Moby-Dick_FE_title_page.jpg",
+            "book_name": "Moby-Dick",
+            "author_name": "Herman Melville",
+            "description": "A seafaring tale of obsession and revenge.",
+            "price": 550
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/Brave_New_World#/media/File:BraveNewWorld_FirstEdition.jpg",
+            "book_name": "Brave New World",
+            "author_name": "Aldous Huxley",
+            "description": "A dystopian novel set in a technologically advanced future society.",
+            "price": 499
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)#/media/File:TheAlchemist.jpg",
+            "book_name": "The Alchemist",
+            "author_name": "Paulo Coelho",
+            "description": "A philosophical novel about a shepherd's journey to fulfill his personal legend.",
+            "price": 399
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/Crime_and_Punishment#/media/File:Crimeandpunishmentcover.png",
+            "book_name": "Crime and Punishment",
+            "author_name": "Fyodor Dostoevsky",
+            "description": "A psychological novel exploring guilt, redemption, and morality.",
+            "price": 600
+          },
+          {
+            "genre": "Fiction",
+            "image": "https://en.wikipedia.org/wiki/The_Road#/media/File:The-road.jpg",
+            "book_name": "The Road",
+            "author_name": "Cormac McCarthy",
+            "description": "A post-apocalyptic novel about a father and son's struggle for survival.",
+            "price": 480
+          },
+      {
+        "genre": "Science Fiction",
+        "image": "https://en.wikipedia.org/wiki/Dune_(novel)#/media/File:Dune-Frank_Herbert_(1965)_First_edition.jpg",
+        "book_name": "Dune",
+        "author_name": "Frank Herbert",
+        "description": "A sci-fi epic set in a desert world filled with political intrigue and power struggles.",
+        "price": 650
+      },
+      {
+        "genre": "Science Fiction",
+        "image": "https://en.wikipedia.org/wiki/Neuromancer#/media/File:Neuromancer_(Book).jpg",
+        "book_name": "Neuromancer",
+        "author_name": "William Gibson",
+        "description": "A cyberpunk novel that helped define the genre of high-tech, low-life.",
+        "price": 499
+      },
+      {
+        "genre": "Science Fiction",
+        "image": "https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)#/media/File:Foundation_-_Isaac_Asimov_(Gnome_1951).jpg",
+        "book_name": "Foundation",
+        "author_name": "Isaac Asimov",
+        "description": "A saga about the rise and fall of a galactic empire.",
+        "price": 520
+      },
+      {
+        "genre": "Science Fiction",
+        "image": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness#/media/File:TheLeftHandOfDarkness1stEd.jpg",
+        "book_name": "The Left Hand of Darkness",
+        "author_name": "Ursula K. Le Guin",
+        "description": "A novel exploring gender, politics, and identity on an alien world.",
+        "price": 470
+      },
+      {
+        "genre": "Science Fiction",
+        "image": "https://upload.wikimedia.org/wikipedia/en/7/73/Hyperion_cover.jpg",
+        "book_name": "Hyperion",
+        "author_name": "Dan Simmons",
+        "description": "A space opera about intergalactic pilgrims on a dangerous journey.",
+        "price": 580
+      },
+      {
+        "genre": "Science Fiction",
+        "image": "https://en.wikipedia.org/wiki/Snow_Crash#/media/File:Snowcrash.jpg",
+        "book_name": "Snow Crash",
+        "author_name": "Neal Stephenson",
+        "description": "A cyberpunk novel blending virtual reality, ancient linguistics, and futuristic adventure.",
+        "price": 530
+      },
+      {
+        "genre": "Science Fiction",
+        "image": "https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)#/media/File:The_Martian_(Weir_novel).jpg",
+        "book_name": "The Martian",
+        "author_name": "Andy Weir",
+        "description": "A thrilling survival story of an astronaut stranded on Mars.",
+        "price": 499
+      },
+      {
+        "genre": "Science Fiction",
+        "image": "https://en.wikipedia.org/wiki/Ender%27s_Game#/media/File:Ender's_game_cover_ISBN_0312932081.jpg",
+        "book_name": "Ender's Game",
+        "author_name": "Orson Scott Card",
+        "description": "A sci-fi classic about a young boy trained to save humanity from alien invaders.",
+        "price": 480
+      },
+      {
+        "genre": "Science Fiction",
+        "image": "https://en.wikipedia.org/wiki/Rendezvous_with_Rama#/media/File:Rama_copy.jpg",
+        "book_name": "Rendezvous with Rama",
+        "author_name": "Arthur C. Clarke",
+        "description": "A first-contact novel about an alien spacecraft entering the solar system.",
+        "price": 550
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind#/media/File:%E1%B8%B2itsur_toldot_ha-enoshut.jpg",
+        "book_name": "Sapiens: A Brief History of Humankind",
+        "author_name": "Yuval Noah Harari",
+        "description": "A thought-provoking exploration of the history and impact of Homo sapiens.",
+        "price": 699
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://en.wikipedia.org/wiki/Educated_(memoir)",
+        "book_name": "Educated",
+        "author_name": "Tara Westover",
+        "description": "A memoir about a woman’s journey from a survivalist family to academia.",
+        "price": 550
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://en.wikipedia.org/wiki/Becoming_(book)#/media/File:Becoming_(Michelle_Obama_book).jpg",
+        "book_name": "Becoming",
+        "author_name": "Michelle Obama",
+        "description": "An inspiring memoir by the former First Lady of the United States.",
+        "price": 620
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://en.wikipedia.org/wiki/The_Power_of_Habit#/media/File:The_Power_of_Habit.jpg",
+        "book_name": "The Power of Habit",
+        "author_name": "Charles Duhigg",
+        "description": "A book exploring the science of habit formation and its impact on life.",
+        "price": 499
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://static.wikia.nocookie.net/the-book-lovers/images/d/df/Atomic_Habits_cover.jpg/revision/latest?cb=20230902200100",
+        "book_name": "Atomic Habits",
+        "author_name": "James Clear",
+        "description": "A practical guide to building good habits and breaking bad ones.",
+        "price": 520
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow#/media/File:Thinking,_Fast_and_Slow.jpg",
+        "book_name": "Thinking, Fast and Slow",
+        "author_name": "Daniel Kahneman",
+        "description": "A book on the two systems that drive human thought and decision-making.",
+        "price": 570
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://en.wikipedia.org/wiki/The_Subtle_Art_of_Not_Giving_a_Fuck#/media/File:The_Subtle_Art_of_Not_Giving_a_F*ck_by_Mark_Manson_-_Book_Cover.png",
+        "book_name": "The Subtle Art of Not Giving a F*ck",
+        "author_name": "Mark Manson",
+        "description": "A counterintuitive self-help book on finding happiness and meaning.",
+        "price": 480
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://en.wikipedia.org/wiki/A_Brief_History_of_Time#/media/File:BriefHistoryTime.jpg",
+        "book_name": "A Brief History of Time",
+        "author_name": "Stephen Hawking",
+        "description": "An accessible introduction to cosmology and the nature of the universe.",
+        "price": 600
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning#/media/File:Trotzdem_Ja_zum_Leben_sagen_(Viktor_Frankl_novel)_cover.jpg",
+        "book_name": "Man’s Search for Meaning",
+        "author_name": "Viktor E. Frankl",
+        "description": "A psychologist’s reflection on surviving the Holocaust and finding purpose in life.",
+        "price": 450
+      },
+      {
+        "genre": "Non-Fiction",
+        "image": "https://en.wikipedia.org/wiki/Into_the_Wild_(book)#/media/File:Into_the_Wild_(book)_cover.png",
+        "book_name": "Into the Wild",
+        "author_name": "Jon Krakauer",
+        "description": "The true story of a young man who ventured into the Alaskan wilderness.",
+        "price": 530
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/The_Notebook#/media/File:Posternotebook.jpg",
+        "book_name": "The Notebook",
+        "author_name": "Nicholas Sparks",
+        "description": "A deeply emotional love story spanning decades.",
+        "price": 490
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/Jane_Eyre#/media/File:Jane_Eyre_title_page.jpg",
+        "book_name": "Jane Eyre",
+        "author_name": "Charlotte Brontë",
+        "description": "A classic novel about love, independence, and self-respect.",
+        "price": 450
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/Outlander_(book_series)#/media/File:Outlander-1991_1st_Edition_cover.jpg",
+        "book_name": "Outlander",
+        "author_name": "Diana Gabaldon",
+        "description": "A time-traveling romance blending history and adventure.",
+        "price": 520
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/Persuasion_(novel)#/media/File:NorthangerPersuasionTitlePage.jpg",
+        "book_name": "Persuasion",
+        "author_name": "Jane Austen",
+        "description": "A tale of love lost and rekindled in Regency England.",
+        "price": 480
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(novel)#/media/File:Gone_with_the_Wind_(1936,_first_edition_cover).jpg",
+        "book_name": "Gone with the Wind",
+        "author_name": "Margaret Mitchell",
+        "description": "A sweeping romance set during the American Civil War.",
+        "price": 550
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/Pride_and_Prejudice#/media/File:PrideAndPrejudiceTitlePage.jpg",
+        "book_name": "Pride and Prejudice",
+        "author_name": "Jane Austen",
+        "description": "A timeless love story with wit and social commentary.",
+        "price": 399
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/Twilight_(novel_series)#/media/File:Twilight_Saga_covers.png",
+        "book_name": "Twilight",
+        "author_name": "Stephenie Meyer",
+        "description": "A modern romance between a teenage girl and a vampire.",
+        "price": 480
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/The_Bridges_of_Madison_County#/media/File:BridgesOfMadisonCounty.jpg",
+        "book_name": "The Bridges of Madison County",
+        "author_name": "Robert James Waller",
+        "description": "A story of an intense and brief love affair.",
+        "price": 500
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/Me_Before_You#/media/File:Me_Before_You.jpg",
+        "book_name": "Me Before You",
+        "author_name": "Jojo Moyes",
+        "description": "An emotional romance about an unlikely pair facing life-changing choices.",
+        "price": 530
+      },
+      {
+        "genre": "Romance",
+        "image": "https://en.wikipedia.org/wiki/Eleanor_Oliphant_Is_Completely_Fine#/media/File:Eleanor_Oliphant_is_Completely_Fine.jpg",
+        "book_name": "Eleanor Oliphant Is Completely Fine",
+        "author_name": "Gail Honeyman",
+        "description": "A heartwarming love story about finding connection and healing.",
+        "price": 510
+      }
+    ]
+  
+  }
+  

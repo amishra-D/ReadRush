@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadRush</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/nimbus-sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+</head>
+<body class="flex flex-col overflow-x-hidden m-0 p-0">
+    <section class="relative w-full min-h-screen">
+        <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
+            <source src="assets/books.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="absolute top-0 left-0 w-full h-full bg-black bopacity-40"id="overlay"></div>
+
+        <div class="absolute top-4 right-6 flex gap-4 sm:gap-8 md:gap-12">
+            <img src="assets\book-shelf-line (1).png" 
+            class="w-8 h-8 p-0.5 bg-black rounded-full
+                   sm:w-16 sm:h-16 sm:p-1 
+                   md:w-20 md:h-20 md:p-2" 
+            id="shelf"  
+            alt="Shelf Icon">
+
+            <img src="assets/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" 
+                 class="w-8 h-8 p-0.5 bg-black rounded-full
+                        sm:w-16 sm:h-16 sm:p-1 
+                        md:w-20 md:h-20 md:p-2" 
+                 id="account"  
+                 alt="Menu Icon">
+
+                 <img src="assets/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" 
+                 class="w-8 h-8 p-0.5 bg-black rounded-full hover:rounded-2xl transition-all duration-300
+                        sm:w-16 sm:h-16 sm:p-1
+                        md:w-20 md:h-20 md:p-2 " 
+                 id="sidebar" 
+                 alt="Profile Icon">
+        </div>
+        <h1 class="absolute top-4 left-4 text-3xl font-bold sm:text-6xl md:text-7xl" id="tit">
+            <span style="color: rgb(171, 161, 239);">Read</span>
+            <span class="text-white">Rush</span>
+        </h1>
+
+        <div id="side" class="absolute flex flex-col justify-start items-start py-32 px-8 w-2/3 sm:w-1/2 sm:-right-1/2 h-full text-lg -right-2/3 bg-white z-50
+        md:py-32 md:px-12 md:text-4xl lg:text-5xl  ">
+        <h1 class="cursor-default text-black py-4 hover:text-gray-400">
+            HOME
+        </h1>
+                    <h1 class="cursor-default text-black py-4 hover:text-gray-400">BOOKS</h1>
+            <h1 class="cursor-default text-black py-4 hover:text-gray-400">SHELF</h1>
+            <h1 class="cursor-default text-black py-4 hover:text-gray-400">CONTACT US</h1>
+        </div>
+        <p id="des" class="absolute w-4/5 h-auto top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left whitespace-normal
+                  text-white text-xl sm:text-2xl md:text-6xl" style="font-family: 'General Sans', sans-serif;">
+            Discover Your Next Great Read <br>
+            Explore Bestsellers, Classics, and Hidden Gems!
+        </p>
+
+    </section>
+    <section class="relative w-full min-h-screen bg-black">
+        
+        <div class="absolute top-0 left-0 w-full flex flex-col h-full "style="background-color:rgb(237, 231, 221);">
+            <p class="text-black font-extrabold ml-1 mt-8 text-5xl md:text-6xl sm:text-5xl lg:text-6xl break-normal text-an" style="font-family: 'General Sans', sans-serif;"id="text-an">Find Yourself In a Book</p>
+            <div class="flex flex-col w-full gap-8 p-1 mb-8">
+            <p class="text-black font-extrabold mt-7 ml-1 text-3xl text-jit" style="font-family: 'General Sans', sans-serif;">Our Best Picks!!</p>
+            <div class="width-full h-2/6 flex justify-around align-center flex-row gap-32 whitespace-nowrap mt-4 md:mt-12" id="wraps">
+                <img src="assets\book2.jpeg" class="h-60 w-auto md:h-[80%] sm:h-92"alt="jbb">
+                <img src="assets\book3.jpg"class="h-60 w-auto md:h-[80%] sm:h-92 "alt="jbb">
+                <img src="assets\book4.jpg"class="h-60 w-auto md:h-[80%] sm:h-92"alt="jbb">
+                <img src="assets\book5.jpg"class="h-60 w-auto md:h-[80%] sm:h-92"alt="jbb">
+                <img src="assets\book6.jpg"class="h-60 w-auto md:h-[80%] sm:h-92"alt="jbb">
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="relative w-full min-h-screen bg-white">
+        <div class="absolute top-0 left-0 w-full flex flex-col h-full" style="background-color:#FFE8E8">
+            <img src="assets/more_up_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" 
+            class="absolute z-10 w-12 h-12 right-1 md:w-20 md:h-20 md:right-8 bg-black rounded-full 
+                   -translate-x-1/2 translate-y-[10%] top-1/2  
+                   lg:right-4
+                   hover:scale-110 hover:right-0 transition-all duration-300 ease-out sm:h-10 sm:w-10 sm:right-3 
+                   shadow-2xl shadow-black/50 filter drop-shadow-2xl more1">
+       
+                   <p class="text-black font-extrabold mt-8 text-4xl md:text-8xl sm:text-6xl text-center text-jit" style="font-family: 'General Sans', sans-serif;">
+                ROMANCE
+            </p>
+    
+        
+            <div class="w-full h-full flex items-center overflow-x-auto overflow-y-hidden py-12">
+            
+                <div class="flex gap-8 px-4 cardss">
+                
+                    <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Eleanor_Oliphant_is_Completely_Fine.jpg" 
+                             class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                        <div class="w-full flex justify-between items-center mt-3 px-2">
+                            <div class="flex flex-col justify-start">
+                                <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Eleanor Oliphant</p>
+                                <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 300</p>
+                            </div>
+                            <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                        </div>
+                    </div>
+    
+                
+                    <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/e/e0/Me_Before_You.jpg" 
+                             alt="Me Before You" 
+                             class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                        <div class="w-full flex justify-between items-center mt-3 px-2">
+                            <div class="flex flex-col justify-start">
+                                <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Me Before You</p>
+                                <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 300</p>
+                            </div>
+                            <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                        </div>
+                    </div>
+    
+                
+                    <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/c/c8/BridgesOfMadisonCounty.jpg" 
+                             alt="The Bridges of Madison County" 
+                             class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                        <div class="w-full flex justify-between items-center mt-3 px-2">
+                            <div class="flex flex-col justify-start">
+                                <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Bridges of Madison</p>
+                                <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 300</p>
+                            </div>
+                            <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                        </div>
+                    </div>
+    
+            
+                    <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Twilight_Saga_covers.png" 
+                             alt="Twilight" 
+                             class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                        <div class="w-full flex justify-between items-center mt-3 px-2">
+                            <div class="flex flex-col justify-start">
+                                <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Twilight</p>
+                                <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 300</p>
+                            </div>
+                            <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                        </div>
+                    </div>
+
+                    <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Gone_with_the_Wind_%281936%2C_first_edition_cover%29.jpg" 
+                             class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                        <div class="w-full flex justify-between items-center mt-3 px-2">
+                            <div class="flex flex-col justify-start">
+                                <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Gone With The Wind</p>
+                                <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 550</p>
+                            </div>
+                            <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="relative w-full min-h-screen bg-white">
+    <div class="absolute top-0 left-0 w-full flex flex-col h-full" style="background-color:#cfecfd">
+        <img src="assets/more_up_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" 
+        class="absolute z-10 w-12 h-12 right-1 md:w-20 md:h-20 md:right-8 bg-black rounded-full 
+               -translate-x-1/2 translate-y-[10%] top-1/2  
+               lg:right-4
+               hover:scale-110 hover:right-0 transition-all duration-300 ease-out sm:h-10 sm:w-10 sm:right-3 
+               shadow-2xl shadow-black/50 filter drop-shadow-2xl more2">
+   
+               <p class="text-black font-extrabold mt-8 text-4xl md:text-8xl sm:text-6xl text-center text-jit" style="font-family: 'General Sans', sans-serif;">
+            FICTION
+        </p>
+
+    
+        <div class="w-full h-full flex items-center overflow-x-auto overflow-y-hidden py-12">
+        
+            <div class="flex gap-8 px-4 cardss">
+            
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card1">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs whitespace-nowrap text" style="font-family: 'General Sans', sans-serif;">Brave New World</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 499</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+            
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg" 
+                         alt="Me Before You" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">The Great Gatsby</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 399</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+            
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card1">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/5/51/1984_first_edition_cover.jpg" 
+                         alt="The Bridges of Madison County" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">1984</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 499</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+        
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/800px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg" 
+                         alt="Twilight" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">The Catcher in the Rye</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 420</p>
+                        </div>
+                    <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/800px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs whitespace-nowrap text" style="font-family: 'General Sans', sans-serif;">To Kill a Mockingbird</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 450</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="relative w-full min-h-screen bg-white">
+    <div class="absolute top-0 left-0 w-full flex flex-col h-full" style="background-color:#c7d0f1">
+        <img src="assets/more_up_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" 
+     class="absolute z-10 w-12 h-12 right-1 md:w-20 md:h-20 md:right-8 bg-black rounded-full 
+            -translate-x-1/2 translate-y-[10%] top-1/2  
+            lg:right-4
+            hover:scale-110 hover:right-0 transition-all duration-300 ease-out sm:h-10 sm:w-10 sm:right-3 
+            shadow-2xl shadow-black/50 filter drop-shadow-2xl more3">
+
+               <p class="text-black font-extrabold mt-8 text-4xl md:text-8xl sm:text-6xl text-center text-jit" style="font-family: 'General Sans', sans-serif;">
+            COMEDY
+        </p>
+
+    
+        <div class="w-full h-full flex items-center overflow-x-auto overflow-y-hidden py-12">
+        
+            <div class="flex gap-8 px-4">
+            
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card2">
+                    <img src="https://books.google.co.in/books/content?id=9I4IqkPyrXoC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U2kFjg_Wg0KmzdkWTp9n8Q01X3AsA&w=1280" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs whitespace-nowrap text" style="font-family: 'General Sans', sans-serif;">Hyperbole and a Half</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 510</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+            
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card2">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/MyManJeeves.jpg" 
+                         alt="Me Man Jeeves" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">My Man Jeeves</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 430</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+            
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card2">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/6/67/Confederacy_of_dunces_cover.jpg" 
+                         alt="The Bridges of Madison County" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">A Confederacy of Dunces</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 550</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+        
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Catch-22_%281961%29_front_cover%2C_first_edition.jpg" 
+                         alt="Twilight" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Catch-22</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 450</p>
+                        </div>
+                    <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card2">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/MeTalkPrettyOneDayCover.JPG" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs whitespace-nowrap text" style="font-family: 'General Sans', sans-serif;">Me Talk Pretty One Day</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 480</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="relative w-full min-h-screen bg-white">
+    <div class="absolute top-0 left-0 w-full flex flex-col h-full" style="background-color:#dbc1fa">
+        <img src="assets/more_up_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" 
+     class="absolute z-10 w-12 h-12 right-1 md:w-20 md:h-20 md:right-8 bg-black rounded-full 
+            -translate-x-1/2 translate-y-[10%] top-1/2  
+            lg:right-4
+            hover:scale-110 hover:right-0 transition-all duration-300 ease-out sm:h-10 sm:w-10 sm:right-3 
+            shadow-2xl shadow-black/50 filter drop-shadow-2xl more4">
+
+               <p class="text-black font-extrabold mt-8 text-4xl md:text-8xl sm:text-6xl text-center text-jit" style="font-family: 'General Sans', sans-serif;">
+            SCI-FI
+        </p>
+
+    
+        <div class="w-full h-full flex items-center overflow-x-auto overflow-y-hidden py-12">
+        
+            <div class="flex gap-8 px-4">
+            
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card3">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/4/4b/Neuromancer_%28Book%29.jpg" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs whitespace-nowrap text" style="font-family: 'General Sans', sans-serif;">Neuromancer</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 499</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+            
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card3">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d9/Foundation_-_Isaac_Asimov_%28Gnome_1951%29.jpg" 
+                         alt="Me Before You" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Foundation</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 520</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+            
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card3">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg" 
+                         alt="The Bridges of Madison County" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Dune</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 650</p>
+                        </div>
+                        <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+                    </div>
+                </div>
+
+        
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card3">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d5/Snowcrash.jpg" 
+                         alt="Twilight" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Snowcrash</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 530</p>
+                        </div>
+                    <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+                    </div>
+                </div>
+                 
+                <div class="h-64 w-48 bg-black flex flex-col items-center p-4 rounded-xl shadow-lg sm:h-72 sm:w-56 md:h-80 md:w-64 lg:h-96 lg:w-72 card3">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Ender%27s_game_cover_ISBN_0312932081.jpg" 
+                         alt="Twilight" 
+                         class="h-40 w-auto rounded-lg object-cover sm:h-48 md:h-56 lg:h-64">
+                    <div class="w-full flex justify-between items-center mt-3 px-2">
+                        <div class="flex flex-col justify-start">
+                            <p class="text-white text-sm font-bold sm:text-xs" style="font-family: 'General Sans', sans-serif;">Ender's Game</p>
+                            <p class="text-white text-sm sm:text-base" style="font-family: 'General Sans', sans-serif;">Rs 480</p>
+                        </div>
+                    <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs px-3 py-2 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Add</button>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="relative w-full min-h-screen bg-white">
+    <div class="absolute top-0 left-0 w-full h-screen flex flex-col md:flex-row justify-between items-center" style="background-color:#ffffff;">
+
+        <div class="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center">
+            <div class="absolute bg-black top-0 left-0 h-4 md:h-4 w-[40%] zoom-b"></div>
+            <img
+              src="assets/bim.jpg"
+              class="object-contain h-[60%] w-[60%] md:h-[50%] md:w-[50%] zoom-im cursor-pointer transition-all-ease"
+              alt="Description of the image"
+              id="liquify-image"
+            />
+          </div>
+    
+        <div class="w-full md:w-1/2 h-1/2 md:h-full flex flex-col justify-center items-center p-8">
+            
+            <p class="text-lg md:text-3xl break-keep text-left text-black w-[90%] md:w-[80%] text-an" style="font-family: 'Nimbus Sans', sans-serif;">
+                The air here smells like possibility—old paper, fresh ink, and the faintest hint of coffee from the corner where someone's been reading for hours. You don't just browse here; you wander. You lose track of time.
+            </p>
+            <button class="mt-8 px-6 py-2 bg-white text-black border border-black rounded hover:bg-black hover:text-white transition-colors duration-300">
+                Shop More
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="relative w-full min-h-screen bg-gray-100">
+    <div class="absolute top-0 left-0 w-full h-screen flex flex-col md:flex-row justify-between items-center" style="background-color:#b7b6b6;">
+    
+    
+    </div>
+</section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="solve.js"></script>
+</body>
+</html>
