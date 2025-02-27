@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://api.fontshare.com/v2/css?f=general-sans@1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+        body, html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+        }
+
+        .container {
+            width: 100%;
+            height: 12vmin;
+            overflow: hidden;
+            position: relative;
+            background-color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+        .selected {
+    color: black !important; /* Force black color */
+}
+        .word {
+            width: 100%;
+            height: 100%;
+            font-size: 8vmin;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-weight: 800;
+            font-family: 'General Sans', sans-serif;
+            transition:0.5s background-color ease-in-out;
+            z-index:10001
+        }
+
+        .clone {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'General Sans', sans-serif;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            gap: 6vmin;
+            align-items: center;
+            position:relative;
+            justify-content: center;
+            height: 100vh;
+            width: 20%;
+            background-color: rgb(0, 0, 0);
+        }
+        .overlay {
+    background-color: rgba(206, 101, 101, 0.8);
+    position: absolute;
+    top: -100%; /* Start from above the container */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: top 0.5s ease-in-out;
+    z-index:1000; /* Add transition for top */
+}
+   .flex-1 {
+            flex: 1;
+            height: 100vh;
+            background-color: #ef96ae;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #book-container {
+            flex: 1;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="container" data-bgcolor="#aed1ed"><div class="word">ALL</div></div>
+        <div class="container" data-bgcolor="#ffcccc"><div class="word">Romance</div></div>
+        <div class="container" data-bgcolor="#ccffcc"><div class="word">Fiction</div></div>
+        <div class="container" data-bgcolor="#ccccff"><div class="word">Sci-fi</div></div>
+        <div class="container" data-bgcolor="#ffffcc"><div class="word">Comedy</div></div>
+    </div>
+
+    <div class="flex-1">
+        <div class="w-auto h-auto overflow-hidden">
+        <p id="header-text" class="text-black text-center py-4 text-4xl font-bold" style="font-family: 'General Sans', sans-serif;"></p>
+    </div>
+    <div id="book-container"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="newb.js"></script>
+</body>
+</html>

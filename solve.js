@@ -38,22 +38,11 @@ document.querySelector('#sidebar').addEventListener("click", () => {
    til.play();
 });
 
-gsap.fromTo("#tit", {
-   color: "#FFFFFF",
+gsap.fromTo("#des", {
+   opacity: 1,
 }, {
-   x: () => {
-      const section = document.querySelector("section");
-      const tit = document.querySelector("#tit");
-      return (section.offsetWidth / 2) - (tit.offsetWidth / 2) - tit.getBoundingClientRect().left;
-   },
-   y: () => {
-      const section = document.querySelector("section");
-      const tit = document.querySelector("#tit");
-      return (section.offsetHeight / 2) - (tit.offsetHeight / 2) - tit.getBoundingClientRect().top;
-   },
-   scale: 2,
-   color: "#000000",
-   duration: 1.8,
+   opacity: 0,
+   duration: 0.5,
    ease: "power2.out",
    scrollTrigger: {
       trigger: "#des",
@@ -62,10 +51,10 @@ gsap.fromTo("#tit", {
       start: "top 40%",
       end: "top 30%",
       scrub: 3,
+      toggleActions: "play none none",
    }
 });
-
-gsap.fromTo("#des", {
+gsap.fromTo("#tit", {
    opacity: 1,
 }, {
    opacity: 0,
@@ -321,8 +310,8 @@ gsap.registerPlugin(ScrollTrigger);
    gsap.from(zoomb, {
       scrollTrigger: {
          trigger: zoomb,
-         start: "top 40%",
-         end: "top 20%",
+         start: "top 80%",
+         end: "top 30%",
          markers: false,
          scrub:2,
       },
@@ -332,4 +321,17 @@ gsap.registerPlugin(ScrollTrigger);
       duration: 0.5,
       ease:"power1.out",
    });
-   
+   let scup=document.querySelector(".sc-up");
+   let scupt=document.querySelector("#scupt");
+   gsap.from(scup, {
+      scrollTrigger: {
+         trigger: scup,
+         start: "top 90%",
+         end: "top 20%",
+         markers: true,
+      },
+      scale:0.7,
+      duration:0.5,
+      ease:"power1.out",
+      toggleActions:"play none none none",
+   });

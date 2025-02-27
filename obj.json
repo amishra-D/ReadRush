@@ -2,7 +2,7 @@
         "books": [
           {
             "genre": "Comedy",
-            "image": "https://en.wikipedia.org/wiki/Good_Omens#/media/File:Goodomenscover.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Goodomenscover.jpg",
             "book_name": "Good Omens",
             "author_name": "Terry Pratchett & Neil Gaiman",
             "description": "A comedic novel about an angel and a demon teaming up to prevent the apocalypse.",
@@ -10,7 +10,7 @@
           },
           {
             "genre": "Comedy",
-            "image": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy#/media/File:H2G2_UK_front_cover.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
             "book_name": "The Hitchhiker's Guide to the Galaxy",
             "author_name": "Douglas Adams",
             "description": "A humorous science fiction series about an unwitting human's adventures in space.",
@@ -18,7 +18,7 @@
           },
           {
             "genre": "Comedy",
-            "image": "https://en.wikipedia.org/wiki/Catch-22#/media/File:Catch-22_(1961)_front_cover,_first_edition.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Catch-22_%281961%29_front_cover%2C_first_edition.jpg/800px-Catch-22_%281961%29_front_cover%2C_first_edition.jpg",
             "book_name": "Catch-22",
             "author_name": "Joseph Heller",
             "description": "A satirical novel set during World War II, highlighting the absurdities of war.",
@@ -26,7 +26,7 @@
           },
           {
             "genre": "Comedy",
-            "image": "https://en.wikipedia.org/wiki/Bridget_Jones%27s_Diary#/media/File:BridgetJonesDiaryMoviePoster.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/en/1/17/BridgetJonesDiaryMoviePoster.jpg",
             "book_name": "Bridget Jones's Diary",
             "author_name": "Helen Fielding",
             "description": "A humorous account of a single woman's adventures in London.",
@@ -34,7 +34,7 @@
           },
           {
             "genre": "Comedy",
-            "image": "https://en.wikipedia.org/wiki/Me_Talk_Pretty_One_Day#/media/File:MeTalkPrettyOneDayCover.JPG",
+            "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/MeTalkPrettyOneDayCover.JPG",
             "book_name": "Me Talk Pretty One Day",
             "author_name": "David Sedaris",
             "description": "A collection of humorous essays about the author's life and experiences.",
@@ -42,7 +42,7 @@
           },
           {
             "genre": "Comedy",
-            "image": "https://en.wikipedia.org/wiki/A_Confederacy_of_Dunces#/media/File:Confederacy_of_dunces_cover.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/en/6/67/Confederacy_of_dunces_cover.jpg",
             "book_name": "A Confederacy of Dunces",
             "author_name": "John Kennedy Toole",
             "description": "A picaresque novel featuring a quirky protagonist in New Orleans.",
@@ -50,7 +50,7 @@
           },
           {
             "genre": "Comedy",
-            "image": "https://en.wikipedia.org/wiki/Bossypants#/media/File:Bossypants_Cover_(Tina_Fey)_-_200px.jpeg",
+            "image": "https://upload.wikimedia.org/wikipedia/en/7/7c/Bossypants_Cover_%28Tina_Fey%29_-_200px.jpeg",
             "book_name": "Bossypants",
             "author_name": "Tina Fey",
             "description": "A memoir filled with humorous anecdotes from the comedian's life.",
@@ -58,7 +58,7 @@
           },
           {
             "genre": "Comedy",
-            "image": "https://en.wikipedia.org/wiki/My_Man_Jeeves#/media/File:MyManJeeves.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/en/c/cd/MyManJeeves.jpg",
             "book_name": "My Man Jeeves",
             "author_name": "P.G. Wodehouse",
             "description": "A collection of comedic short stories featuring the valet Jeeves.",
@@ -66,7 +66,7 @@
           },
           {
             "genre": "Comedy",
-            "image": "https://www.google.co.in/books/edition/Hyperbole_and_a_Half/9I4IqkPyrXoC?hl=en&gbpv=1&printsec=frontcover",
+            "image": "https://books.google.co.in/books/content?id=9I4IqkPyrXoC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U2kFjg_Wg0KmzdkWTp9n8Q01X3AsA&w=1280",
             "book_name": "Hyperbole and a Half",
             "author_name": "Allie Brosh",
             "description": "A humorous illustrated memoir based on the author's blog.",
@@ -74,7 +74,7 @@
           },
           {
             "genre": "Comedy",
-            "image": "https://en.wikipedia.org/wiki/Is_Everyone_Hanging_Out_Without_Me%3F#/media/File:Is_everyone_hanging_out_without_me.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/en/c/cf/Is_everyone_hanging_out_without_me.jpg",
             "book_name": "Is Everyone Hanging Out Without Me?",
             "author_name": "Mindy Kaling",
             "description": "A collection of humorous essays on the author's life and career.",
@@ -82,7 +82,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/The_Great_Gatsby#/media/File:The_Great_Gatsby_Cover_1925_Retouched.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/800px-The_Great_Gatsby_Cover_1925_Retouched.jpg",
             "book_name": "The Great Gatsby",
             "author_name": "F. Scott Fitzgerald",
             "description": "A novel about the American dream and the decadence of the Jazz Age.",
@@ -90,7 +90,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird#/media/File:To_Kill_a_Mockingbird_(first_edition_cover).jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/800px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
             "book_name": "To Kill a Mockingbird",
             "author_name": "Harper Lee",
             "description": "A story of racial injustice and moral growth in the American South.",
@@ -98,7 +98,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four#/media/File:1984_first_edition_cover.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/en/5/51/1984_first_edition_cover.jpg",
             "book_name": "1984",
             "author_name": "George Orwell",
             "description": "A dystopian novel about a totalitarian regime that controls every aspect of life.",
@@ -106,7 +106,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye#/media/File:The_Catcher_in_the_Rye_(1951,_first_edition_cover).jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/800px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg",
             "book_name": "The Catcher in the Rye",
             "author_name": "J.D. Salinger",
             "description": "A story about teenage angst and alienation in post-war America.",
@@ -114,7 +114,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/Pride_and_Prejudice#/media/File:PrideAndPrejudiceTitlePage.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/800px-PrideAndPrejudiceTitlePage.jpg",
             "book_name": "Pride and Prejudice",
             "author_name": "Jane Austen",
             "description": "A classic novel exploring themes of love, class, and social reputation.",
@@ -122,7 +122,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/Moby-Dick#/media/File:Moby-Dick_FE_title_page.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Moby-Dick_FE_title_page.jpg/800px-Moby-Dick_FE_title_page.jpg",
             "book_name": "Moby-Dick",
             "author_name": "Herman Melville",
             "description": "A seafaring tale of obsession and revenge.",
@@ -130,7 +130,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/Brave_New_World#/media/File:BraveNewWorld_FirstEdition.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg",
             "book_name": "Brave New World",
             "author_name": "Aldous Huxley",
             "description": "A dystopian novel set in a technologically advanced future society.",
@@ -138,7 +138,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)#/media/File:TheAlchemist.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/TheAlchemist.jpg",
             "book_name": "The Alchemist",
             "author_name": "Paulo Coelho",
             "description": "A philosophical novel about a shepherd's journey to fulfill his personal legend.",
@@ -146,7 +146,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/Crime_and_Punishment#/media/File:Crimeandpunishmentcover.png",
+            "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Crimeandpunishmentcover.png",
             "book_name": "Crime and Punishment",
             "author_name": "Fyodor Dostoevsky",
             "description": "A psychological novel exploring guilt, redemption, and morality.",
@@ -154,7 +154,7 @@
           },
           {
             "genre": "Fiction",
-            "image": "https://en.wikipedia.org/wiki/The_Road#/media/File:The-road.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/The-road.jpg/800px-The-road.jpg",
             "book_name": "The Road",
             "author_name": "Cormac McCarthy",
             "description": "A post-apocalyptic novel about a father and son's struggle for survival.",
@@ -162,7 +162,7 @@
           },
       {
         "genre": "Science Fiction",
-        "image": "https://en.wikipedia.org/wiki/Dune_(novel)#/media/File:Dune-Frank_Herbert_(1965)_First_edition.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg",
         "book_name": "Dune",
         "author_name": "Frank Herbert",
         "description": "A sci-fi epic set in a desert world filled with political intrigue and power struggles.",
@@ -170,7 +170,7 @@
       },
       {
         "genre": "Science Fiction",
-        "image": "https://en.wikipedia.org/wiki/Neuromancer#/media/File:Neuromancer_(Book).jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Neuromancer_%28Book%29.jpg",
         "book_name": "Neuromancer",
         "author_name": "William Gibson",
         "description": "A cyberpunk novel that helped define the genre of high-tech, low-life.",
@@ -178,7 +178,7 @@
       },
       {
         "genre": "Science Fiction",
-        "image": "https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)#/media/File:Foundation_-_Isaac_Asimov_(Gnome_1951).jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/Foundation_-_Isaac_Asimov_%28Gnome_1951%29.jpg",
         "book_name": "Foundation",
         "author_name": "Isaac Asimov",
         "description": "A saga about the rise and fall of a galactic empire.",
@@ -186,7 +186,7 @@
       },
       {
         "genre": "Science Fiction",
-        "image": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness#/media/File:TheLeftHandOfDarkness1stEd.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/88/TheLeftHandOfDarkness1stEd.jpg",
         "book_name": "The Left Hand of Darkness",
         "author_name": "Ursula K. Le Guin",
         "description": "A novel exploring gender, politics, and identity on an alien world.",
@@ -202,15 +202,15 @@
       },
       {
         "genre": "Science Fiction",
-        "image": "https://en.wikipedia.org/wiki/Snow_Crash#/media/File:Snowcrash.jpg",
-        "book_name": "Snow Crash",
+        "image": "https://upload.wikimedia.org/wikipedia/en/d/d5/Snowcrash.jpg",
+        "book_name": "Snowcrash",
         "author_name": "Neal Stephenson",
         "description": "A cyberpunk novel blending virtual reality, ancient linguistics, and futuristic adventure.",
         "price": 530
       },
       {
         "genre": "Science Fiction",
-        "image": "https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)#/media/File:The_Martian_(Weir_novel).jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/The_Martian_%28Weir_novel%29.jpg",
         "book_name": "The Martian",
         "author_name": "Andy Weir",
         "description": "A thrilling survival story of an astronaut stranded on Mars.",
@@ -218,7 +218,7 @@
       },
       {
         "genre": "Science Fiction",
-        "image": "https://en.wikipedia.org/wiki/Ender%27s_Game#/media/File:Ender's_game_cover_ISBN_0312932081.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Ender%27s_game_cover_ISBN_0312932081.jpg",
         "book_name": "Ender's Game",
         "author_name": "Orson Scott Card",
         "description": "A sci-fi classic about a young boy trained to save humanity from alien invaders.",
@@ -226,7 +226,7 @@
       },
       {
         "genre": "Science Fiction",
-        "image": "https://en.wikipedia.org/wiki/Rendezvous_with_Rama#/media/File:Rama_copy.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Rama_copy.jpg",
         "book_name": "Rendezvous with Rama",
         "author_name": "Arthur C. Clarke",
         "description": "A first-contact novel about an alien spacecraft entering the solar system.",
@@ -314,7 +314,7 @@
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/The_Notebook#/media/File:Posternotebook.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/86/Posternotebook.jpg",
         "book_name": "The Notebook",
         "author_name": "Nicholas Sparks",
         "description": "A deeply emotional love story spanning decades.",
@@ -322,7 +322,7 @@
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/Jane_Eyre#/media/File:Jane_Eyre_title_page.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jane_Eyre_title_page.jpg/800px-Jane_Eyre_title_page.jpg",
         "book_name": "Jane Eyre",
         "author_name": "Charlotte Brontë",
         "description": "A classic novel about love, independence, and self-respect.",
@@ -330,7 +330,7 @@
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/Outlander_(book_series)#/media/File:Outlander-1991_1st_Edition_cover.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Outlander-1991_1st_Edition_cover.jpg",
         "book_name": "Outlander",
         "author_name": "Diana Gabaldon",
         "description": "A time-traveling romance blending history and adventure.",
@@ -338,7 +338,7 @@
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/Persuasion_(novel)#/media/File:NorthangerPersuasionTitlePage.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/NorthangerPersuasionTitlePage.jpg/800px-NorthangerPersuasionTitlePage.jpg",
         "book_name": "Persuasion",
         "author_name": "Jane Austen",
         "description": "A tale of love lost and rekindled in Regency England.",
@@ -346,15 +346,15 @@
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(novel)#/media/File:Gone_with_the_Wind_(1936,_first_edition_cover).jpg",
-        "book_name": "Gone with the Wind",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Gone_with_the_Wind_%281936%2C_first_edition_cover%29.jpg/800px-Gone_with_the_Wind_%281936%2C_first_edition_cover%29.jpg",
+        "book_name": "Gone With The Wind",
         "author_name": "Margaret Mitchell",
         "description": "A sweeping romance set during the American Civil War.",
         "price": 550
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/Pride_and_Prejudice#/media/File:PrideAndPrejudiceTitlePage.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/800px-PrideAndPrejudiceTitlePage.jpg",
         "book_name": "Pride and Prejudice",
         "author_name": "Jane Austen",
         "description": "A timeless love story with wit and social commentary.",
@@ -362,7 +362,7 @@
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/Twilight_(novel_series)#/media/File:Twilight_Saga_covers.png",
+        "image": "https://upload.wikimedia.org/wikipedia/en/7/7a/Twilight_Saga_covers.png",
         "book_name": "Twilight",
         "author_name": "Stephenie Meyer",
         "description": "A modern romance between a teenage girl and a vampire.",
@@ -370,7 +370,7 @@
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/The_Bridges_of_Madison_County#/media/File:BridgesOfMadisonCounty.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/BridgesOfMadisonCounty.jpg",
         "book_name": "The Bridges of Madison County",
         "author_name": "Robert James Waller",
         "description": "A story of an intense and brief love affair.",
@@ -378,7 +378,7 @@
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/Me_Before_You#/media/File:Me_Before_You.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e0/Me_Before_You.jpg",
         "book_name": "Me Before You",
         "author_name": "Jojo Moyes",
         "description": "An emotional romance about an unlikely pair facing life-changing choices.",
@@ -386,8 +386,8 @@
       },
       {
         "genre": "Romance",
-        "image": "https://en.wikipedia.org/wiki/Eleanor_Oliphant_Is_Completely_Fine#/media/File:Eleanor_Oliphant_is_Completely_Fine.jpg",
-        "book_name": "Eleanor Oliphant Is Completely Fine",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Eleanor_Oliphant_is_Completely_Fine.jpg",
+        "book_name": "Eleanor Oliphant",
         "author_name": "Gail Honeyman",
         "description": "A heartwarming love story about finding connection and healing.",
         "price": 510
