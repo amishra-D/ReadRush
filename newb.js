@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     let activeContainer = null;
     let activeTween = null;
-    let selectedGenre = localStorage.getItem("gen") || ""; // Get stored genre
+    let selectedGenre = localStorage.getItem("gen") || "";
 
     function normalizeGenre(genre) {
         const trimmedGenre = genre.trim().toLowerCase();
-        console.log(`Original: ${genre}, Normalized: ${trimmedGenre}`); // Debugging
+        console.log(`Original: ${genre}, Normalized: ${trimmedGenre}`);
         if (trimmedGenre === "sci-fi" || trimmedGenre === "scifi") {
             return "science fiction";
         }
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const word = container.querySelector(".word");
         const genre = word.textContent.trim();
         const normalizedGenre = normalizeGenre(genre);
-        const bgColor = container.getAttribute("data-bgcolor"); // Get the background color from the data attribute
+        const bgColor = container.getAttribute("data-bgcolor");
 
         const clone = word.cloneNode(true);
         clone.classList.add("clone");
@@ -69,30 +69,28 @@ document.addEventListener("DOMContentLoaded", () => {
         overlay.classList.add("overlay");
         container.appendChild(overlay);
 
-        // Preselect stored genre on page reload
         if (selectedGenre === genre) {
             activeContainer = container;
             document.getElementById("header-text").textContent = genre.trim().toUpperCase();
-            gsap.set(overlay, { opacity: 1, top: 0 }); // Set overlay to visible position
-            document.querySelector(".flex-1").style.backgroundColor = bgColor; // Set background color
-            overlay.style.backgroundColor = bgColor; // Set overlay color
-            word.classList.add("selected"); // Add selected class to word
-            clone.classList.add("selected"); // Add selected class to clone
+            gsap.set(overlay, { opacity: 1, top: 0 });
+            document.querySelector(".flex-1").style.backgroundColor = bgColor;
+            overlay.style.backgroundColor = bgColor;
+            word.classList.add("selected");
+            clone.classList.add("selected");
         }
 
         container.addEventListener("click", () => {
             if (selectedGenre === genre) {
                 gsap.to(overlay, { opacity: 0, top: "-100%", duration: 0.3 });
-                return; // Do nothing if the same genre is clicked again
+                return;
             }
 
             selectedGenre = genre;
             localStorage.setItem("gen", genre);
             document.getElementById("header-text").textContent = genre.trim().toUpperCase();
 
-            // Animate the header text
             const headerText = document.getElementById("header-text");
-            const splitText = new SplitType(headerText, { types: 'chars' }); // Split the text into characters
+            const splitText = new SplitType(headerText, { types: 'chars' });
 
             gsap.from(splitText.chars, {
                 yPercent:130,
@@ -100,38 +98,35 @@ document.addEventListener("DOMContentLoaded", () => {
                 duration: 0.8,
                 ease: "back.out",
                 onComplete: () => {
-                    splitText.revert(); // Revert the split after animation
+                    splitText.revert();
                 }
             });
 
             if (activeContainer && activeContainer !== container) {
                 if (activeTween) activeTween.kill();
                 gsap.to(activeContainer.querySelector(".overlay"), { opacity: 0, top: "-100%", duration: 0.3 });
-                activeContainer.querySelector(".word").classList.remove("selected"); // Remove selected class from previous word
-                activeContainer.querySelector(".clone").classList.remove("selected"); // Remove selected class from previous clone
+                activeContainer.querySelector(".word").classList.remove("selected");
+                activeContainer.querySelector(".clone").classList.remove("selected");
             }
 
             activeContainer = container;
-            gsap.to(overlay, { opacity: 1, top: 0, duration: 0.5 }); // Animate overlay down from the top
+            gsap.to(overlay, { opacity: 1, top: 0, duration: 0.5 });
 
-            // Animate the background color of .flex-1 and overlay
             gsap.to(document.querySelector(".flex-1"), {
                 backgroundColor: bgColor,
-                duration: 0.5, // Smooth transition over 0.5 seconds
+                duration: 0.5,
                 ease: "power2.out",
             });
 
             gsap.to(overlay, {
                 backgroundColor: bgColor,
-                duration: 0.5, // Smooth transition over 0.5 seconds
+                duration: 0.5,
                 ease: "power2.out",
             });
 
-            // Add selected class to the current word and clone
             word.classList.add("selected");
             clone.classList.add("selected");
 
-            // Reset the position of the word and clone before starting the animation
             gsap.set([word, clone], { yPercent: 0 });
 
             activeTween = gsap.to([word, clone], {
