@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const bookContainer = document.getElementById("book-container");
         bookContainer.innerHTML = "";
 
-        fetch("Obj.json")
+        fetch("obj.json")
             .then(response => response.json())
             .then(data => {
                 let books = (genre.trim().toLowerCase() === "all") ? data.books : data.books.filter(book => normalizeGenre(book.genre) === normalizeGenre(genre));
