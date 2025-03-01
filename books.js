@@ -104,28 +104,5 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     });
-document.querySelector(".more1").addEventListener("click",()=>{
-    let val=document.querySelector(".more1").nextElementSibling.textContent;
-    localStorage.setItem("gen",val);
-    console.log(val);
-    window.location.href='newb.html';
-})
-document.querySelector(".more2").addEventListener("click",()=>{
-    let val=document.querySelector(".more2").nextElementSibling.textContent;
-    localStorage.setItem("gen",val);
-    console.log(val);
-    window.location.href='newb.html';
-})
-document.querySelector(".more3").addEventListener("click",()=>{
-    let val=document.querySelector(".more3").nextElementSibling.textContent;
-    localStorage.setItem("gen",val);
-    console.log(val);
-    window.location.href='newb.html';
-})
-document.querySelector(".more4").addEventListener("click",()=>{
-    let val=document.querySelector(".more4").nextElementSibling.textContent;
-    localStorage.setItem("gen",val);
-    console.log(val);
-    window.location.href='newb.html';
-})
+
 });

@@ -4,3 +4,6 @@
     font-weight: bold;
     font-style: normal;
   }
+ #revealTrigger:hover .arr{
+    fill:rgb(0, 0, 0)
+}

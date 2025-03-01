@@ -38,7 +38,9 @@ til.pause();
 document.querySelector('#sidebar').addEventListener("click", () => {
    til.play();
 });
-
+document.querySelector('#closeSidebar').addEventListener("click", () => {
+    til.reverse();
+});
 gsap.fromTo("#des", {
    opacity: 1,
 }, {
@@ -322,17 +324,135 @@ gsap.registerPlugin(ScrollTrigger);
       duration: 0.5,
       ease:"power1.out",
    });
-   let scup=document.querySelector(".sc-up");
-   let scupt=document.querySelector("#scupt");
-   gsap.from(scup, {
-      scrollTrigger: {
-         trigger: scup,
-         start: "top 90%",
-         end: "top 20%",
-         markers: true,
-      },
-      scale:0.7,
-      duration:0.5,
-      ease:"power1.out",
-      toggleActions:"play none none none",
-   });
+   document.addEventListener('DOMContentLoaded', function() {
+      const revealTrigger = document.getElementById('revealTrigger');
+      const contactCard = document.getElementById('contactCard');
+      const closeButton = document.getElementById('closeButton');
+      let isRevealed = false;
+      
+      // Set initial positions
+      gsap.set(contactCard, { 
+          opacity: 0,
+          y: 100,
+          scale: 0.9
+      });
+      
+      // Reveal animation
+      function revealCard() {
+          if (!isRevealed) {
+              // Animate the text
+              gsap.to(revealTrigger, {
+                  opacity: 0,
+                  y: -50,
+                  scale: 0.8,
+                  duration: 0.5,
+                  ease: "power2.out"
+              });
+              
+              // Reveal the card
+              gsap.to(contactCard, {
+                  opacity: 1,
+                  y: 0,
+                  scale: 1,
+                  duration: 0.8,
+                  delay: 0.3,
+                  ease: "back.out(1.7)"
+              });
+              
+              // Show close button
+              gsap.to(closeButton, {
+                  opacity: 1,
+                  scale: 1,
+                  duration: 0.5,
+                  delay: 0.8,
+                  ease: "back.out(1.7)"
+              });
+              
+              isRevealed = true;
+          }
+      }
+      
+      // Hide animation
+      function hideCard() {
+          if (isRevealed) {
+              // Hide the card
+              gsap.to(contactCard, {
+                  opacity: 0,
+                  y: 100,
+                  scale: 0.9,
+                  duration: 0.5,
+                  ease: "power2.in"
+              });
+              
+              // Hide close button
+              gsap.to(closeButton, {
+                  opacity: 0,
+                  scale: 0,
+                  duration: 0.3,
+                  ease: "power2.in"
+              });
+              
+              // Bring back the text
+              gsap.to(revealTrigger, {
+                  opacity: 1,
+                  y: 0,
+                  scale: 1,
+                  duration: 0.8,
+                  delay: 0.3,
+                  ease: "back.out(1.7)"
+              });
+              
+              isRevealed = false;
+          }
+      }
+      
+      // Add click events
+      revealTrigger.addEventListener('click', revealCard);
+      closeButton.addEventListener('click', hideCard);
+  });
+
+   document.querySelector(".more1").addEventListener("click",()=>{
+      let val=document.querySelector(".more1").nextElementSibling.textContent;
+      localStorage.setItem("gen",val);
+      console.log(val);
+      window.location.href='newb.html';
+      
+  })
+  document.querySelector(".more2").addEventListener("click",()=>{
+      let val=document.querySelector(".more2").nextElementSibling.textContent;
+      localStorage.setItem("gen",val);
+      console.log(val);
+      window.location.href='newb.html';
+  })
+  document.querySelector(".more3").addEventListener("click",()=>{
+      let val=document.querySelector(".more3").nextElementSibling.textContent;
+      localStorage.setItem("gen",val);
+      console.log(val);
+      window.location.href='newb.html';
+  })
+  document.querySelector(".more4").addEventListener("click",()=>{
+      let val=document.querySelector(".more4").nextElementSibling.textContent;
+      localStorage.setItem("gen",val);
+      console.log(val);
+      window.location.href='newb.html';
+      
+  })
+  document.querySelectorAll("#side h1").forEach(el=>{
+   el.addEventListener("click",()=>{
+  til.reverse(); 
+})
+  });
+  gsap.from("#revealTrigger", {
+   scrollTrigger: {
+      trigger:"#revealTrigger",
+      start: "top 90%",
+      end: "top 30%",
+      markers: true,
+      scrub:2,
+   },
+   y:150,
+   opacity:0.6,
+   delay:0.3,
+   duration: 0.7,
+   ease:"power1.out",
+});
